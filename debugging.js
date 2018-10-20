@@ -1,7 +1,6 @@
 // Remove block comments when ready to debug a program.
 
 // Program #1: "Careless"
-/*
 let x == 3;
 if(x => 3 {
   X+++;
