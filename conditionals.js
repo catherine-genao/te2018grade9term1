@@ -8,7 +8,11 @@ console.log("*** Problem 1: R-rated ***");
 let age = READLINE.question("Enter your age: ");
 let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 
-
+if (age >= 18 || withAdult == 'yes'){
+	console.log("watch movie")
+}else{
+	console.log("you need an adult")
+}
 // **** Problem 2: Umbrella ****
 // You should bring an umbrella when you travel, but only if it is raining.
 // However, if it is thunderstorming, you should not bring an umbrella since
@@ -17,7 +21,12 @@ let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 console.log("*** Problem 2: Umbrella ***");
 let raining = READLINE.question("Is it raining? (yes or no): ");
 let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
+if (raining == 'yes'){
+	if (thunderstorming == 'no'){
+		console.log("bring a umbrella")
+	}
 
+}
 
 // **** Problem 3: Monkey Trouble ****
 // There are two monkeys: Bubbles and Spankey. You are in trouble if both of
@@ -26,6 +35,11 @@ let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
 console.log("*** Problem 3: Monkey Trouble ***");
 let bubbles = READLINE.question("Is Bubbles smiling? (yes or no): ");
 let spankey = READLINE.question("Is Spankey smiling? (yes or no): ");
+if (bubblessmiles == 'yes'){
+   if (spankeysmiles == 'yes')
+
+console.log("They both are in trouble")
+}
 
 
 // **** Problem 4: First Place ****
@@ -35,7 +49,7 @@ console.log("*** Problem 4: First Place ***");
 let score1 = READLINE.question("Enter the first score: ");
 let score2 = READLINE.question("Enter the second score: ");
 let score3 = READLINE.question("Enter the third score: ");
-
+if()
 
 // **** Problem 5: Phone Shopping ****
 // At a phone store, you can afford various "tiers" of phones based on how
