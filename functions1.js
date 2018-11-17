@@ -1,12 +1,19 @@
-const READLINE = require("readline-sync");
-
+ const READLINE = require("readline-sync");
+ let  {
+	// body...
+}
 // **** Problem 1: printMessage() ****
 // Write a function that prints any message you want.
-
+let printMessage = function(){
+	console.log("I Donut Care")
+}
+printMessage();
 
 // **** Problem 2: printFiveMessages() ****
 // Write a function that calls printMessage() five times.
-
+let printFiveMessages =function(){
+    console.log("")
+}
 
 // **** Problem 3: getUserInput() ****
 // Write a function that asks the user if they'd like to print your message
