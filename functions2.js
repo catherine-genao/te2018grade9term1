@@ -11,10 +11,12 @@ sumDouble(3, 2) → 5
 sumDouble(2, 2) → 8
 *******************************************************************************/
 
+  // body...
+
 
 
 // Remove comment below to test this function.
-//testSumDouble();
+testSumDouble();
 
 /******************************************************************************
                                    makes10(a, b)
@@ -27,10 +29,25 @@ makes10(9, 9) → false
 makes10(1, 9) → true
 *******************************************************************************/
 
+function makes10(a,b) {
+ if(a+b == 10 ||(a == 10 || b == 10)
+
+  return true 
+}else}
+
+
+ return false
+}
+
+
+
+}
+
+console.log(makes10(2,8))
 
 
 // Remove comment below to test this function.
-//testMakes10();
+testMakes10();
 
 /******************************************************************************
                           parrotTrouble(talking, hour)
@@ -45,11 +62,16 @@ parrotTrouble(true, 6) → true
 parrotTrouble(true, 7) → false
 parrotTrouble(false, 6) → false
 *******************************************************************************/
+function parrotTrouble(range1,range2) {
+  if (talking==true)
+    if (hour< 7 or hour >20)
+  return true
+  return false 
+}
 
-
-
+console.log(parrotTrouble(true,10))
 // Remove comment below to test this function.
-//testParrotTrouble();
+testParrotTrouble();
 
 /******************************************************************************
                              alarmClock(day, vacation)
@@ -65,11 +87,13 @@ alarmClock(1, false) → "7:00"
 alarmClock(6, true) → "off"
 alarmClock(0, false) → "10:00"
 *******************************************************************************/
-
+function alarmClock(time1,time2) {
+  if (onvacation == false && day)
+}
 
 
 // Remove comment below to test this function.
-//testAlarmClock();
+testAlarmClock();
 
 /******************************************************************************
                       caughtSpeeding(speed, isBirthday)

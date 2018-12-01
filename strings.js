@@ -10,11 +10,19 @@ withoutEnd("coding") → "odin"
 *******************************************************************************/
 
 function withoutEnd(str) {
+let newStr = str.substring(1, str.length-1)
+  return newStr
+
+
+
+
+
+
+
 
 }
-
 // Remove comment below to test this function.
-//testWithoutEnd();
+testWithoutEnd();
 
 /******************************************************************************
                                    frontAgain()
@@ -30,8 +38,21 @@ frontAgain("ed") → true
 
 function frontAgain(str) {
 
+let firstletter str.charAt(0)
+let secondletter str.charAt( 1 )
+let lastletter str.charAt(str.length -1)
+ let secondletter str.charAt(str.length -2)
+
+  if (firstletter==secondlast&&secondletter==last)
+
+return true
+
+
 }
 
+{else}
+
+return false
 // Test this function.
 //testFrontAgain();
 
