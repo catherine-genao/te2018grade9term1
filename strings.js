@@ -52,9 +52,13 @@ return true
 
 {else}
 
-return false
+
+{ return false 
+
+}
+
 // Test this function.
-//testFrontAgain();
+ testFrontAgain();
 
 /******************************************************************************
                                    deFront()
